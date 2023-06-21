@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+            <h1>Calculadora IMC</h1>
+            <div class="input_area">
+                <h2>
+                <label for="altura">Altura (cm)</label>
+                </h2>
+                <input type="number" id="height" placeholder="Altura..." name="altura">
+            </div>
+            <div class="input_area">
+                <h2>
+                <label for="peso">Peso (kg)</label>
+                </h2>
+                <input type="number" id="weight" placeholder="Peso..." name="peso">
+            </div>
+            <button onclick="calculate()">Calcular</button>
+            <textarea name="" id="result" rows="4"></textarea>
+        </div>
+    </div>
+
+    <footer class="dev">
+        <h2>
+            Desenvolvido por Frederico Augusto Magalhães - 2023
+        </h2>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
